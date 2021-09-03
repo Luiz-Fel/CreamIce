@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style-->
     <link rel="stylesheet" href="style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,10 +16,21 @@
     
 </head>
 <body>
-    <header id="header">
-        <nav class="container">
+    <header id="header" class="scroll">
+        <nav class="container ">
             <a class="logo" href="#"><h1>Cream<span>ice</span>.</h1></a>
-            <div class="menu">...</div>
+            <!-- MENU -->
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -28,7 +43,7 @@
                     
                 </div>
                 <div class="text">
-                        <h1>O melhor sorvete, artesanal ou tradicional</h1>
+                        <h2 class="title">O melhor sorvete, artesanal ou tradicional</h2>
                     <p>Uma sorveteria localizada em São Paulo, especializada nos mais diversos tipos de sorvete</p>
                     <a href="#" class="button">Faça um pedido</a>
                 </div>
@@ -40,16 +55,69 @@
                 
             </div>
         </section>
-        <section>
-            <div class="container">
-                
+
+
+
+        
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1616166534966-7334430168c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=" ice cream">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
         </section>
-        <section></section>
-        <section></section>
+
+        <div class="divider-2"></div>
+
+
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>Com mais de 10 anos no mercado , a <strong>Creamice</strong> já conquistou inúmeros países com seus sorvetes de sabores totalmente naturais</p>
+                </header>
+                    <div class="cards grid">
+                            <div class="card">
+                            <i class="icon-cone_dairy_dessert_food_ice-cream_icon"></i>
+                            <h3 class="title">Sorvetes</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit delectus ullam magnam n aliquam officiis dolore repudiandae atque hic ducimus nesciunt distinctio error vel eligendi.</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-shopping-bag"></i>
+                            <h3 class="title">Delivery</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur  Maxime soluta dolor fugiat molestiae! Nesciunt amet repudiandae itaque culpa debitis?</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-shop1"></i>
+                            <h3 class="title">Lojas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus soluta nobis, cumque nisi est, distinctio a aliquid sint eius incidunt qui.</p>
+                        </div>
+                    </div>
+                    
+            </div>
+        </section>
+
+        <section class="section" id="testimonials">
+            <div class="container grid">
+                testimonials
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
+
+    <script src="main.js"></script>
+
 </body>
 </html>
