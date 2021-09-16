@@ -47,6 +47,12 @@
             'brand12': '&#xea92;',
             'whatsapp': '&#xea93;',
             'brand13': '&#xea93;',
+            'play': '&#xe912;',
+            'video': '&#xe912;',
+            'arrow-up': '&#xea32;',
+            'up': '&#xea32;',
+            'arrow-up2': '&#xea3a;',
+            'up2': '&#xea3a;',
           '0': 0
         };
         delete icons['0'];
