@@ -486,6 +486,11 @@ nav.show  div.icon-close {
     align-items: center;
     gap: 0.5rem;
 }
+#contact ul li:last-child {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
 
 #contact ul li i {
     color: var(--base-color);
