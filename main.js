@@ -60,16 +60,18 @@ const scrollReveal = ScrollReveal({
     duration: 700,
     reset: true
 })
+if (window.innerWidth > 1120) {
 
-scrollReveal.reveal(`
-#home .text, #home .image,
-#about .image, #about .text,
-#services header, #services .card,
-#testimonials header, #testimonials .testimonials,
-#contact .text, #contact .links, footer .brand, 
-footer .social
-
-`, {interval: 50})
+    scrollReveal.reveal(`
+    #home .text, #home .image,
+    #about .image, #about .text,
+    #services header, #services .card,
+    #testimonials header, #testimonials .testimonials,
+    #contact .text, #contact .links, footer .brand, 
+    footer .social
+    
+    `, {interval: 45 })
+}
 
 
 /*Back to top */
